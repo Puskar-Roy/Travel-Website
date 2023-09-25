@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:ital,wght@0,300;1,200&family=Montserrat:wght@200;600&family=Poppins:wght@200&family=Roboto:wght@300;400&family=Ubuntu:wght@300;500&family=Work+Sans:wght@300&display=swap');
+
+.featureContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding: 5rem 5rem;
+    gap: 4rem;
+    font-family: 'Ubuntu', sans-serif; 
+
+}
+
+.featured{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+.featuredItem{
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 250px;
+  /* flex:1 */
+}
+
+.featuredImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredTitles{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

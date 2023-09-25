@@ -1,0 +1,42 @@
+.cardContainer {
+  font-family: "Poppins", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 42rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.cardContainer img {
+  width: 40rem;
+  height: 38rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cardContent {
+  width: 40rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.cardContent h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+.cardContent p{
+    text-align: center;
+    font-weight: 400;
+}
+.btn{
+    height: 3.5rem;
+    width: 9.2rem;
+    border-radius: 20px;
+    background-color: var(--mainColor);
+    border: none;
+    background-color: #0bacc7;
+    color: #fff;
+}
